@@ -1,0 +1,20 @@
+.pt_header { background:#eef; border-bottom: 1px solid #ddd; }
+.pt_field { margin-top: 10px; clear: both; }
+.pt_field > span { float: left; width: 25%; text-align: right; padding-right: 10px; margin: 5px 0; }
+.pt_field > div { float: right !important; width: 68% !important; }
+.pt_field > div > input, .pt_field > div > select { width: 70% !important; }
+.pt_field:first-child { margin-top: 0 !important; }
+.pt_other { cursor: pointer; text-decoration: underline; }
+span.pt_field.pt_other { margin-bottom: 10px; display: block; }
+.pt_extend { display: none; }
+.pt_error { }
+.pt_table { width: 100%; }
+.pt_tablerow_head { background-color: #DEDEDE; font-weight: bold; }
+.pt_tablerow_head td { padding: 10px; }
+.pt_tablerow_today { background-color: #FFDEB0; }
+td.pt_tablerow_today { padding: 10px; text-align: center; }
+.pt_tablerow_today td { padding: 10px; }
+.pt_tablerow td { padding: 10px; }
+.pt_table_cellhead { background-color: #DEDEDE; font-weight: bold; padding: 10px; }
+.pt_table_cell { padding: 10px; }
+.pt_form { padding: 7px; margin: 0; }

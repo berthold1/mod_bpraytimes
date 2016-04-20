@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" method="upgrade" >
+    <name>MOD_BPRAYTIMES</name>
+    <author>Berthold</author>
+    <creationDate>Nov 12, 2013 </creationDate>
+    <copyright>Copyright (C) 2012 - 2013 luc.com. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail></authorEmail>
+    <authorUrl></authorUrl>
+    <version>3.2</version>
+    <description>Show prayer times</description>
+    <files>
+        <filename module="mod_bpraytimes">mod_bpraytimes.php</filename>
+        <folder>asset</folder>
+        <folder>language</folder>
+        <filename>index.html</filename>
+    </files>
+    <config>
+        <fields name="params">		
+            <fieldset name="basic">
+				<field name="mode" type="radio" default="0" 
+                    label="MOD_BPRAYTIMES_MODE_LABEL" description="MOD_BPRAYTIMES_MODE_DESC">
+                    <option value="0">MOD_BPRAYTIMES_MODE_DAILY</option>
+                    <option value="1">MOD_BPRAYTIMES_MODE_DAILY_VERTICAL</option>
+                    <option value="2">MOD_BPRAYTIMES_MODE_MONTHLY</option>
+				</field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
